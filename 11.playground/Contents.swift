@@ -8,6 +8,7 @@ func add_five(arr: [String]) -> [String] {
     return arr.map{$0 + "5"}
 }
 
+//TEST part above
 add_five( arr: ["code","c"])
 
 
@@ -41,6 +42,8 @@ func middle_char(word: String) -> String {
     returnedChars = "" + word[startIndex...startIndex]
     return returnedChars
 }
+
+//TEST part above
 middle_char(word: "HERE")
 middle_char(word: "HER")
 
